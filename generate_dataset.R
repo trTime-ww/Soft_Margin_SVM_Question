@@ -1,9 +1,6 @@
 # Create Dataset for Soft-margin SVM
 
-setwd("D:/王韦力/My life in Columbia/courses/24 spring/GR5241")
-
 library(tibble)
-
 
 tibble_3_blue <- tibble(x_1 = seq(0.1, 0.3, length.out = 3), 
                         x_2 = rep(-0.1, 3), 
